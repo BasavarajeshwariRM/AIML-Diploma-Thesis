@@ -33,4 +33,8 @@ https://archive.ics.uci.edu/ml/datasets/Codon+usage
 
 If you have any feedback, please reach out to us at rajeshwari.rm22@gmail.com
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
