@@ -4,9 +4,17 @@ Every living organism, whether unicellular or multicellular, possesses a genome 
 
 Leveraging artificial intelligence and machine learning, we aim to determine if codon usage bias can predict and classify taxonomic identity and genetic composition across the kingdoms of life.
 
-Various multiclass classification algorithms viz., (1) K-Nearest Neighbors (2) Decision tree (3) Random Forest (4) Gradient boosting (5) Gaussian Naive Bayes (6) Kernel SVM were employed in this study.
+Various multiclass classification algorithms viz.,
+- K-Nearest Neighbors 
+- Decision tree
+- Random Forest
+- Gradient boosting
+- Gaussian Naive Bayes
+- Kernel SVM
+were employed in this study.
 
 Among the algorithms, KNN performance was best in terms of Mathew’s correlation co-efficient metrics. Since the data points belonging to a particular kingdom were grouped into smaller sub-clusters, where KNN with 3 nearest neighbors had an advantage over the other models.  A test score of 0.939 was observed for the KNN model. The next best performing model was kernel SVM followed by gradient boosting with test score of 0.932 and 0.907 respectively. 
+
 ## Features
 
 - Data Preprocessing
@@ -14,21 +22,20 @@ Among the algorithms, KNN performance was best in terms of Mathew’s correlatio
 - Modelling and Error Analysis
 - Hyperparameter Tuning
 
-
 ## Dataset
 
 The codon usage frequencies data has been extracted from the CUTG database which is constructed using the nucleotide sequences of 3,027,973 complete protein coding genes (CDS’s) of 35,779 organisms available in NCBI-GenBank. The individual files of CUTG database has been compiled into a joint database of 13028 genomes and is made available in the UCI Machine Learning Repository
 
 https://archive.ics.uci.edu/ml/datasets/Codon+usage
+
 ## Acknowledgements
 
  - [Codon Usage Dataset](https://doi.org/10.1038/s41598-023-28965-7)
  
+## Reference
 
-
-## Related Article
-
- - [Reading Material](https://www.researchgate.net/publication/346432520_Codon_Usage_Bias_Levels_Predict_Taxonomic_Identity_and_Genetic_Composition)
+ - [ResearchGate](https://www.researchgate.net/publication/346432520_Codon_Usage_Bias_Levels_Predict_Taxonomic_Identity_and_Genetic_Composition)
+   
 ## Feedback
 
 If you have any feedback, please reach out to us at rajeshwari.rm22@gmail.com
