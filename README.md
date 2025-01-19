@@ -1,4 +1,4 @@
-# Prediction and Classification of organisms using codon usage bias (CUB) frequencies
+# Prediction and Classification of organisms by codon usage bias (CUB) frequencies
 
 Every living organism, whether unicellular or multicellular, possesses a genome comprising nuclear DNA, mitochondrial DNA, and/or chloroplast DNA, all formed from nucleotide sequences (A, T/U, G, C). Codons, trinucleotide DNA sequences, correspond to specific amino acids, with 64 codons coding for 21 amino acids and a stop signal. Due to the genetic code's redundancy, a single amino acid can be encoded by one to five codons, leading to codon usage bias—a preference for specific codons coding for the same amino acid. This bias varies across taxa and offers insights into the taxonomic and phylogenetic features of organisms. 
 
